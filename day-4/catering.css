@@ -1,23 +1,52 @@
 
 
 .main {
+   display: inline-block;
+   width=300px;
+  
    border-left-color: black;
 }
 .h1{
-    font-size:20px; 
- width=500px;
+    font-size:30px; 
+ width=300px;
     padding: 5px;
  border-color: solid black;
+ color: black
     
 }
 .h2{
-    width=400px;
+    font-size:20px; 
+    width=300px;
    height: 5px;
-    padding: 10px;
-   margin-left: 120px;
-   border-color: solid black;
-border-left-color: black;
+    padding: 5px; 
+margin-left: 290px; 
+   color: black;
+   
+
+order:0;
 }
+.h3{
+    width=300px;
+   height: 500px;
+    padding: 5px;
+    bottom: 0px;
+}
+   
+
 image{
-     image width=100%;
+      width=100%;
+}
+p{
+  
+    color: black;
+    bottom: -120px;
+position: absolute;
+    padding:10px; 
+    margin: 0%;
+    font-size: 40px;
+}
+.h4{
+    width=300px;
+   height: 5px;
+    padding: 5px;
 }
