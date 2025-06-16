@@ -1,0 +1,76 @@
+
+.container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+margin-top: 100px;
+margin-left: 100px;
+  width: 500px;
+  height: 350px;
+  border: 2px solid;
+  
+  align-items: flex-start; 
+  padding: 20px;
+  gap: 20px; 
+  background-color: aquamarine;
+}
+
+
+.container-1,
+.container-3,
+.container-5,
+.container-7 {
+    margin-top: 100px;
+  width: 20px; 
+  height: 100px;
+  background-color: black;
+  border-radius: 20px;
+  animation-name: color;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate; 
+   transition: transform 0.3s ease-in-out;  
+ 
+}
+
+
+.container-2,
+.container-4,
+.container-6 {
+      margin-top: 100px;
+  width: 20px; 
+  height: 150px;
+  background-color: black;
+  border-radius: 20px;
+  animation-name: color;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode:both;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite; 
+  animation-direction: alternate-reverse; 
+  transition: transform 0.3s ease-in-out;  
+
+   
+}
+@keyframes color {
+  0% {
+    transform: translateY(0px) scale(1); 
+  }
+  50% {
+    transform: translateY(10px)scale(1.5); 
+  }
+  75%{
+     transform: translateY(0px)scale(0.5);  
+  }
+  100% {
+    transform: translateY(-10px) scale(1.5); 
+}
+ 
+}
+  
+ 

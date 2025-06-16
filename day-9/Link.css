@@ -1,0 +1,54 @@
+/* a:link{
+    color: brown;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: red;
+}
+input:focus{
+    outline: none;
+} */
+ .container{
+
+    background-color: deeppink;
+    width: fit-content;
+    padding: 10px;
+    cursor: pointer;
+     
+
+    
+ }
+   
+ .item1:hover{
+          color: bisque;
+            text-decoration: underline;
+ }
+            .item2:hover{
+          color: bisque;
+            text-decoration: underline;  
+            }
+              .item3:hover{
+          color: bisque;
+            text-decoration: underline;  
+            }
+              .item4:hover{
+          color: bisque;
+            text-decoration: underline;  
+            }
+ .container{
+    display: flex;
+   
+      gap: 20px;   
+ }
+ #menu:checked~.container{
+    display: none;
+ }
+ #menu{
+  display: none;
+ }
+  

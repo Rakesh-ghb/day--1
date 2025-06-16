@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.flag-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .pole {
+    width: 10px;
+    height: 570px;
+    background-color: black;
+    margin-right: 290px;
+margin-bottom: -10px;
+   
+
+} 
+
+.flag {
+    width: 300px;
+    height: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.stripe {
+    height: 33.33%;
+    width: 100%;
+}
+
+.saffron {
+    background-color: orange;
+}
+
+.white {
+    background-color: white;
+    position: relative;
+}
+
+.green {
+    background-color: green;
+}
+
+.chakra {
+    width: 40px;
+    height: 40px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: radial-gradient(circle, blue 1px, transparent 1px);
+    background-size: 4px 4px;
+    background-repeat: repeat;
+}
+
+.base {
+    margin-top: 10px; 
+    width: 200px;
+    height: 100px;
+   
+    border-radius: 3px;
+    border: 2px solid;
+    margin-left: -280px;
+    background-color:dimgray;
+}
